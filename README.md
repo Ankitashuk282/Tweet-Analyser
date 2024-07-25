@@ -48,12 +48,16 @@ but can be classified as positive because of the word like. So, maybe unigrams i
 
 | Optimisations Done |  Precision |    Recall   |   F-Score  | Accuracy|
 | ------------------ |:----------:| -----------:|------------|:-------:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-| col 3 is      | right-aligned | $1600 
-| col 2 is      | centered      |   $12 
-| zebra stripes | are neat      |    $1 
+| Without optimisation   |   0.7833   |  0.8074   | 0.7911   | 0.8074 |
+| Pre-process Improvement
+• Remove words starting with @ and http
+• Remove punctuations
+• Remove stop words |   0.7746     |  0.7987     |  0.7826   |     0.7987   |
+|Pre-process Improvement
+• Add Lemmatizing to pre- processing  |   0.8268        |    0.8284      | 0.8273    |  0.8284|
+| Using TfidVectorizer for unigram and bigram both  |     0.8547    |    0.8562     |  0.8527      |  0.8562 |
+|Discarding negative stop words from stop-word removal as they’re portray strong negative emotions’   |    0.8707    |   0.8719        |   0.8691      |  0.8719 |
+
 
 ***Optimisations Done                           Precision              Recall              F-Score                Accuracy***
 
