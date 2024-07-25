@@ -59,23 +59,7 @@ but can be classified as positive because of the word like. So, maybe unigrams i
 |Discarding negative stop words from stop-word removal as they’re portray strong negative emotions’   |    0.8707    |   0.8719        |   0.8691      |  0.8719 |
 
 
-***Optimisations Done                           Precision              Recall              F-Score                Accuracy***
 
-Without optimisation                          0.7833                0.8074               0.7911                  0.8074
-     
-Pre-process Improvement
-• Remove words starting with @ and http       0.7746                0.7987               0.7826                  0.7987                    
-• Remove punctuations
-• Remove stop words
 
-Pre-process Improvement
-• Add Lemmatizing to pre- processing          0.8268                0.8284                0.8273                 0.8284
-
-Using TfidVectorizer for unigram and          0.8547                0.8562                0.8527                 0.8562
-bigram both
-
-Discarding negative stop words from           0.8707                0.8719                0.8691                 0.8719
-stop-word removal as they’re portray 
-strong negative emotions’
 
      
