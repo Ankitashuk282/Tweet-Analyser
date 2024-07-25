@@ -46,6 +46,15 @@ but can be classified as positive because of the word like. So, maybe unigrams i
 • Using the following table to record values for each optimisation made
 • All values are mean values for 10-fold cross validation
 
+| Optimisations Done |  Precision |    Recall   |   F-Score  | Accuracy|
+| ------------------ |:----------:| -----------:|------------|:-------:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+| col 3 is      | right-aligned | $1600 
+| col 2 is      | centered      |   $12 
+| zebra stripes | are neat      |    $1 
+
 ***Optimisations Done                           Precision              Recall              F-Score                Accuracy***
 
 Without optimisation                          0.7833                0.8074               0.7911                  0.8074
